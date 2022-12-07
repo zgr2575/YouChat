@@ -1,4 +1,3 @@
-console.log("Project is no longer updated");
 var messageSettings = {
   font: "Verdana",
   youbg: "lightgray",
@@ -6,7 +5,7 @@ var messageSettings = {
   thembg: "white",
   themcolor: "black",
   yousound: "",
-  themsound: "assets/category_bell/quiet_bell_notification.mp3",
+  themsound: "sound://category_bell/quiet_bell_notification.mp3",
   censor: true,
   emoticonToEmoji: true,
   maxMessages: 50
@@ -33,6 +32,7 @@ function notif(content) {
     }, 200);
   }, 3000);
 }
+
 
 
 
