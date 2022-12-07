@@ -1,3 +1,4 @@
+console.log("Project is no longer updated");
 var messageSettings = {
   font: "Verdana",
   youbg: "lightgray",
